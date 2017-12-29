@@ -6,6 +6,12 @@ use warnings;
 
 our $VERSION = '0.03';
 
+sub ver {
+    return $VERSION;
+}
+1;
+__END__
+
 =head1 NAME
 
 Test::Module::CheckDep::Version - Unusable distribution to test Module::CheckDep::Version 
