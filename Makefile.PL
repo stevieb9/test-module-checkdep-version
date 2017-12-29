@@ -18,7 +18,7 @@ WriteMakefile(
         'Test::More' => '0',
     },
     PREREQ_PM => {
-        'Mock::Sub' => 1.01,
+        'Mock::Sub' => '1.01',
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES => 'Test-Module-CheckDep-Version-*' },
